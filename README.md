@@ -3,7 +3,7 @@
 
 By running the script ```fpga_flasher.py``` all the steps from the .SOF file (produced by Quartus II) till the final setup of the fpga in
 an arduino MKR Vidor 4000 are executed. In particular, the SOF file is converted into a TTF file, which is then bit reversed producing 
-an app.h file, which is loaded in he SRAM of the board in order to program the fpga (compiling and upload in a template arduino sketch).
+an app.h file, which is loaded in the SRAM of the board in order to program the fpga (compiling and upload in a template arduino sketch).
 All these operations can be executed automatically in a python terminal in a simple line.
 
 
